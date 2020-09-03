@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, useState, createRef, useRef } from 'react';
+import React, { useState, createRef, useRef } from 'react';
 
 import {
   second_block_left_title,

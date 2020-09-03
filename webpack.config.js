@@ -1,5 +1,6 @@
 const path = require('path');
 const CompressionPlugin = require('compression-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 // const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = () => {
@@ -44,6 +45,11 @@ module.exports = () => {
         ],
       },
       ],
+    },
+    optimization: {
+      minimizer: [new TerserPlugin({
+        extractComments: true,
+      })],
     },
     devtool: 'source-map',
     devServer: {

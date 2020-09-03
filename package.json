@@ -23,6 +23,7 @@
     "react-dom": "16.9.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
+    "terser-webpack-plugin": "^4.1.0",
     "webpack": "4.16.5"
   },
   "devDependencies": {
