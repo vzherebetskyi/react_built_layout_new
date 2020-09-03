@@ -1,5 +1,5 @@
-# Audi Q5 Layout
+# React adaptive Layout
 
 ## About
 
-The Audi Q5 adaptive layout.  
+The React adaptive layout.  
